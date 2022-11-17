@@ -116,3 +116,15 @@ print(2 != 10)
 print(7 > 5)
 
 print(10 < 10)
+
+if 10 > 5:
+    print("10 greater than 5")
+
+print("Program ended")
+
+spam = 7
+if spam > 5:
+   print("five")
+if spam > 8:
+   print("eight")
+
