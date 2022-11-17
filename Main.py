@@ -98,7 +98,21 @@ print(x)
 x += "eggs"
 print(x)
 
-num = int(input())
-print(num)
+print(17 % 3)
 
-print(num:=int(input()))
+my_boolean = True
+print(my_boolean)
+
+print(2 == 3)
+
+print("hello" == "hello")
+
+print(1 != 1)
+
+print("eleven" != "seven")
+
+print(2 != 10)
+
+print(7 > 5)
+
+print(10 < 10)
