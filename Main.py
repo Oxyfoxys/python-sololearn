@@ -216,3 +216,61 @@ if(grade >= 70 and grade <= 100):
 
     str = "Hello world!"
     print(str[6])
+
+    nums = [7, 7, 7, 7, 7]
+    nums[2] = 5
+    print(nums)
+
+    nums = [1, 2, 3]
+    print(nums + [4, 5, 6])
+    print(nums * 3)
+
+    words = ["spam", "egg", "spam", "sausage"]
+    print("spam" in words)
+    print("egg" in words)
+    print("tomato" in words)
+
+    nums = [10, 9, 8, 7, 6, 5]
+    nums[0] = nums[1] - 5
+    if 4 in nums:
+        print(nums[3])
+    else:
+        print(nums[4])
+
+nums = [1, 2, 3]
+print(not 4 in nums)
+print(4 not in nums)
+print(not 3 in nums)
+print(3 not in nums)
+
+nums = [1, 2, 3]
+nums.append(4)
+print(nums)
+
+nums = [1, 3, 5, 2, 4]
+print(len(nums))
+
+items = [2, 4, 6, 8, 10, 12, 14]
+
+num = len(items) // 2
+print(num)
+
+letters = ["a", "b", "c"]
+letters.append("d")
+print(len(letters))
+
+words = ["Python", "fun"]
+index = 1
+words.insert(index, "is")
+print(words)
+
+nums = [9, 8, 7, 6, 5]
+nums.append(4)
+nums.insert(2, 11)
+print(len(nums))
+
+letters = ['p', 'q', 'r', 's', 'p', 'u']
+print(letters.index('r'))
+print(letters.index('p'))
+print(letters.index('z'))
+
