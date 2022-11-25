@@ -128,3 +128,57 @@ if spam > 5:
 if spam > 8:
    print("eight")
 
+x = 4
+if x == 5:
+    print("Yes")
+else:
+    print("No")
+
+    num = 3
+    if num == 1:
+       print("One")
+    else:
+       if num == 2:
+          print("Two")
+       else:
+          if num == 3:
+             print("Three")
+          else:
+             print("Something else")
+
+          num = 3
+          if num == 1:
+             print("One")
+          elif num == 2:
+             print("Two")
+          elif num == 3:
+             print("Three")
+          else:
+             print("Something else")
+
+          print(1 == 1 and 2 == 2)
+
+          print(1 == 1 and 2 == 3)
+
+          print(1 != 1 and 2 == 2)
+
+          print(2 < 1 and 3 > 6)
+
+    print(1 == 1 or 2 == 2)
+
+    print(1 == 1 or 2 == 3)
+
+    print(1 != 1 or 2 == 2)
+
+    print(2 < 1 or 3 > 6)
+
+    print(not 1 == 1)
+
+    print(not 1 > 7)
+
+    if not True:
+       print("1")
+    elif not (1 + 1 == 3):
+       print("2")
+    else:
+       print("3")
