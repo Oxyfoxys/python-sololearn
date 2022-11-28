@@ -276,3 +276,32 @@ while i>=0:
    i = i - 1
 
 
+i = 0
+while 1==1:
+    print(i)
+    i = i + 1
+    if i >= 5:
+        print("Breaking")
+        break
+
+print("Finished")
+
+i = 5
+while True:
+  print(i)
+  i = i - 1
+  if i <= 2:
+    break
+
+i = 0
+while i<5:
+  i += 1
+  if i==3:
+    print("Skipping 3")
+    continue
+  print(i)
+
+
+  words = ["hello", "world", "spam", "eggs"]
+  for word in words:
+      print(word + "!")
