@@ -176,12 +176,6 @@ else:
 
     print(not 1 > 7)
 
-    if not True:
-       print("1")
-    elif not (1 + 1 == 3):
-       print("2")
-    else:
-       print("3")
 
 print(False == False or True)
 
@@ -269,8 +263,16 @@ nums.append(4)
 nums.insert(2, 11)
 print(len(nums))
 
-letters = ['p', 'q', 'r', 's', 'p', 'u']
-print(letters.index('r'))
-print(letters.index('p'))
-print(letters.index('z'))
+i = 1
+while i <=5:
+    print(i)
+    i = i + 1
+
+print("Finished!")
+
+i = 3
+while i>=0:
+   print(i)
+   i = i - 1
+
 
