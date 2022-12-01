@@ -330,3 +330,27 @@ for i in range(5):
 
 list = [1, 1, 2, 3, 5, 8, 13]
 print(list[list[4]])
+
+print("Hello world!")
+range(2, 20)
+
+range(10, 20, 3)
+
+
+def my_func():
+    print("spam")
+    print("spam")
+    print("spam")
+
+
+my_func()
+
+
+def print_with_exclamation(word):
+    print(word + "!")
+
+
+print_with_exclamation("spam")
+print_with_exclamation("eggs")
+print_with_exclamation("python")
+
